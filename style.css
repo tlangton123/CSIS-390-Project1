@@ -10,10 +10,26 @@ h3 {
 	text-align: center;
 }
 
+header {
+	border-bottom: 2px solid black;
+}
+
+div {
+	width: 800px;
+	margin: auto;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+}
+
+ol {
+	text-align: center;
+}
 nav ol, nav li {
 	text-align: center;
-  padding: 0px;
-  margin: 0px;
+	padding: 0px;
+	margin: 0px;
 }
 
 nav li {
@@ -22,7 +38,7 @@ nav li {
 
 nav a {
 	display: inline-block;
-	width: 120px;
+	width: 100px;
 	border: 1px solid lightgray;
 	margin-top: 5px;
 	margin-bottom: 5px;
