@@ -2,39 +2,48 @@
 <head>
 	<meta charset = "utf-8">
 	<title> 2015 Problem 2 </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <html>
 	<h1>Problem 2 2015</h1>
 	<h2>Simplified Poker</h2>
-	<body> <p> <u> Background Information: </u> Most poker hands use five cards. In simplified four card poker, four cards are used for a hand. Four card poker hands are classified as one of the following: a Royal Flush, Straight Flush, Four-of-a-Kind, Flush, Straight, Three-of-a-kind, Two-pairs, One-Pair, Nothing.  You will be given four cards from a regulation 52-card deck of playing cards. Your program will determine if the four cards constitute:</p>
-		<p><b>Four-of-a-Kind</b> (all four cards are the same kind)
-		<b>Three-of-a-Kind</b> (three cards are the same and one card is different)
-		<b>Two-Pairs</b> (two cards are the same kind and the other two cards of the same kind, but different than the first pair)
-		<b>One-Pair</b> (two cards of the same kind and the other two cards of different kinds)
-		or 
-		<b>No-Mathches</b> (all four cards are of different kinds)
-		Note that in simplified poker we are not computing any other type of hand such as flushes or straights.
+	<body> <p> <u> Background Information: </u> Most poker hands use five cards. In simplified four card poker, four cards are used <br>
+	for a hand. Four card poker hands are classified as one of the following: a Royal Flush, Straight Flush, Four-of-a- <br> 
+	Kind, Flush, Straight, Three-of-a-kind, Two-pairs, One-Pair, Nothing.  You will be given four cards from a regulation <br>
+	52-card deck of playing cards. Your program will determine if the four cards constitute:</p>
+		<p><b>Four-of-a-Kind</b> (all four cards are the same kind) <br>
+		<b>Three-of-a-Kind</b> (three cards are the same and one card is different) <br>
+		<b>Two-Pairs</b> (two cards are the same kind and the other two cards of the same kind, but different than the first pair) <br>
+		<b>One-Pair</b> (two cards of the same kind and the other two cards of different kinds)<br>
+		or <br>
+		<b>No-Mathches</b> (all four cards are of different kinds)<br>
+		Note that in simplified poker we are not computing any other type of hand such as flushes or straights.<br><br>
 
-Normally, each card would be designated with a kind and a suit. For this problem, we will be ignoring the suits and just designating the kind of each card. The kind will be in the range  [2, 14], with  2 for a Two, 3 for a Three, … 11 for a Jack, 12 for a Queen, 13 for a King, and 14 for an Ace.
+Normally, each card would be designated with a kind and a suit. For this problem, we will be ignoring the suits and <br>
+ just designating the kind of each card. The kind will be in the range  [2, 14], with  2 for a Two, 3 for a Three, … 11 <br>
+ for a Jack, 12 for a Queen, 13 for a King, and 14 for an Ace. <br>
 Cards will be input from lowest to highest.
 
 		</p>
-			<p> <u> Programming Problem:</u> Input:		Four integers (in the range 2..14) in ascending order.
-The four integers will be on four separate lines. 
-	Output:	The type of hand followed by the four cards (integers).
+			<p> <u> Programming Problem:</u> 
+			<pre>
+			Input: Four integers (in the range 2..14) in ascending order.
+				The four integers will be on four separate lines. 
+			
+			Output:	The type of hand followed by the four cards (integers).
 
-	Example 1:	Input:	7 7 7 7
-		Output:	<b>Four-of-a-Kind</b>   7 7 7 7
+			Example 1:	Input:	7 7 7 7
+						Output:	<b>Four-of-a-Kind</b>   7 7 7 7
 	
-	Example 2:	Input:	3 9 9 9
-		Output:	<b>Three-of-a-Kind</b>   3 9 9 9
+			Example 2:	Input:	3 9 9 9
+						Output:	<b>Three-of-a-Kind</b>   3 9 9 9
 
-Example 3:	Input:	2 4 4 6
-	Output:	<b>One-Pair</b>    2 4 4 6
-
-Example 4:	Input:	10 11 12 13
-Output:	<b>No-Matches</b>      10 11 12 13
-
+			Example 3:	Input:	2 4 4 6
+						Output:	<b>One-Pair</b>    2 4 4 6
+	
+			Example 4:	Input:	10 11 12 13
+						Output:	<b>No-Matches</b>      10 11 12 13
+</pre>
 	</p>
 	</body>
 </html>
