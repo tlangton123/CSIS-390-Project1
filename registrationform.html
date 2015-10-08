@@ -26,36 +26,36 @@
  
   <h3> STUDENT ELIGIBILITY FORM</h3>
   <form>
-    Team Name: <input type = "text" size = "50" maxlength = "256" name = "name">
+    <p> Team Name: </p>
+	<input type = "text" size = "50" maxlength = "256" name = "name" placeholder="(High School Name) (Team Letter)">
+	
+	<p>
+		(For the team letter, we will assume that A is used for your first team, B for the second, …)
+	</p>
   </form>
-  <p>
-    (For the team name use the name of your high school followed by a letter. We will assume that A is used for your first team, B for the second, …)
-  </p></br>
-  <p>
-    I herby certify that the students listed below are representing their school at the Siena College High School Programming Contest.
-  </p>
   
   <form>
-    <p> Contestants: First Name Last Name (please print)</p>
+    <p> Team Members: </p>
     <ul>
-      <li><input type = 'text' size = "25" maxlenght = "256"></li>
-      <li><input type = 'text' size = "25" maxlenght = "256"></li>
-      <li><input type = 'text' size = "25" maxlenght = "256"></li>
-      <li><input type = 'text' size = "25" maxlenght = "256"></li>
+      <li><input type = 'text' size = "25" maxlength = "256" placeholder="Firstname Lastname"></li>
+      <li><input type = 'text' size = "25" maxlength = "256" placeholder="Firstname Lastname"></li>
+      <li><input type = 'text' size = "25" maxlength = "256" placeholder="Firstname Lastname"></li>
+      <li><input type = 'text' size = "25" maxlength = "256" placeholder="Firstname Lastname"></li>
       
     </ul>
+	<p>
+		I herby certify that the students listed above are representing their school at the Siena College High School Programming Contest.
+	</p>
   </form>
-  
-  <p>Advisor Certification:</p>
   
   <form>
-    <input type = 'text' size = "25" maxlenght = "256"> <br>
-    <p>signature of advisor</p><br>
-    <input type = 'text' size = "25" maxlenght = "256"> <br>
-    <p>print name of advisor</p><br>
-    <input type = 'text' size = "25" maxlenght = "256"> <br>
-    <p>school</p>
+	<p>Advisor Certification:</p>
+	<label for="advisor">Advisor Name:</label><br>
+    <input type = 'text' size = "25" maxlength = "256"> <br>
+	<label for="school">School Name:</label><br>
+    <input type = 'text' size = "25" maxlength = "256"> <br>
   </form>
+  <input type="button" class="btn btn-success" value="Submit" id="submit">
   </div>
 </body>
 </html>
