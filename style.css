@@ -37,8 +37,12 @@ nav ol, nav li {
 
 nav li {
 	display: inline-block;
-	padding: 0px;
-	margin: 0px;
+}
+
+li {
+	padding:0px;
+	margin: auto;
+	display:inline-block;
 }
 
 nav a {
