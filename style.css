@@ -40,6 +40,11 @@ nav li {
 	display: inline-block;
 }
 
+li{
+	padding:1px;
+	margin-left:0px;
+}
+
 
 nav a {
 	display: inline-block;
