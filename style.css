@@ -28,6 +28,8 @@ div {
 
 ol {
 	text-align: center;
+	padding:1px;
+	margin-left:0px;
 }
 nav ol, nav li {
 	text-align: center;
@@ -39,9 +41,6 @@ nav li {
 	display: inline-block;
 }
 
-li {
-	margin-left:0px;
-}
 
 nav a {
 	display: inline-block;
