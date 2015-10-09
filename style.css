@@ -71,7 +71,7 @@ img
 }
 
 
-div.img {
+.img {
     width: 800px;
     display:inline-block;
     margin-left: auto;
