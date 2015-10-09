@@ -25,9 +25,9 @@
 		</nav>
 		<hr>
 		<h2>Computing Survey</h2>
-
+		
 		<form>
-
+			<p>Please fill in all fields to the best of your ability.</p>
 			<label for="name">Name:</label>
 			<input id="name" size="24"><br>
 			
@@ -42,11 +42,10 @@
 			<label for="Email">Email:</label>
 			<input id="Email" size="30"><br>
 			
-			<label for="gender">Gender:</label>
 			<label for="gender">Male:</label>
 			<input id="male" name = "gender" type ="Radio" value = "Male">
 			<label for="gender">Female:</label>
-			<input id="female" name = "gender" type ="Radio" value = "Female">
+			<input id="female" name = "gender" type ="Radio" value = "Female"><br>
 			
 			<label for="High School">High School:</label>
 			<input id="High School" size="30"><br>
@@ -54,14 +53,17 @@
 			<label for="Yr">Year of Graduation:</label>
 			<input id="Yr" size="30"><br>
 			<br>
-		
+		</form>
+		<form>
+			<p>Please answer each question to the best of your ability.</p>
 			<textarea rows = "10" cols = "50" placeholder = "What math classes are you currently enrolled in?"></textarea><br><br>
 			
 			<textarea rows = "10" cols = "50" placeholder = "What is your favorite academic subject?"></textarea><br><br>
 			
 			<textarea rows = "10" cols = "50" placeholder = "Are you planning on going to college? If you are a senior, what school(s) will you probably attend this fall?"></textarea><br><br>
-		
-			<p>What is your intended major?</p>	
+		</form>
+		<form>
+			<p>What is your intended major? (Choose all that apply)</p>	
 			<input type = "checkbox" name = "undecided"> undecided <br> 
 			<input type = "checkbox" name = "Computer Science"> Computer Science<br> 
 			<input type = "checkbox" name = "Mathematics"> Mathematics<br> 

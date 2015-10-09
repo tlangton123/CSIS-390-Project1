@@ -18,7 +18,7 @@ header {
 }
 
 div {
-	width: 800px;
+	width: 60%;
 	margin: auto;
 	padding: 20px;
 	background-color: rgb(255,205,52);
@@ -91,7 +91,7 @@ form input {
 }
 
 form {
-	border-top: 1px solid lightgray;
+	border-top: 1px solid rgb(0,89,77);
 }
 
 body
