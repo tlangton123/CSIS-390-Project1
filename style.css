@@ -97,5 +97,8 @@ form {
 body
 {
 background-color:rgb(255,205,52);
+background-image: url(images/siena.jpg);
+background-position: right;
+background-repeat: no-repeat;
 }
 	
