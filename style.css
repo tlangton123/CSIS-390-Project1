@@ -76,6 +76,7 @@ div.img {
     display:inline-block;
     margin: auto;
     text-align:center;
+    padding: 20px;
 }
 
 form input {
